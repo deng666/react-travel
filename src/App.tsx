@@ -10,10 +10,10 @@ function App() {
         <div className={styles['page-content']}>
           <Row style={{marginTop: 20}}>
             <Col span={6}>
-              <div style={{background: "red"}}><SideMenu /></div>
+              <SideMenu />
             </Col>
             <Col span={18}>
-            <div style={{background: "blue"}}><Carousel /></div>
+              <Carousel />
             </Col>
           </Row>
         </div>
